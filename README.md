@@ -5,7 +5,7 @@ This project implements a 3D human reconstruction pipeline using 3D Gaussian Spl
 
 By capturing video footage of a subject and processing the frames through a Gaussian Splatting pipeline, the project demonstrates how modern neural rendering techniques can generate real-time 3D representations of real-world scenes.
 
-##Demo
+## Demo
 Input Video
 
 Multi-view video of a subject captured from different perspectives.
