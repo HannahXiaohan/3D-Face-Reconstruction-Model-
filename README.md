@@ -17,23 +17,23 @@ A reconstructed 3D human model rendered using Gaussian splatting with interactiv
 Example outputs are shown in the demo videos included in the repository.
 
 ## Methodology
-# 1. Video Capture
+1. Video Capture
 
 A video of the subject is recorded from multiple viewpoints to capture sufficient visual coverage for reconstruction.
 
-# 2. Frame Extraction
+2. Frame Extraction
 
 The video is converted into individual frames which serve as the dataset for reconstruction.
 
-# 3. Camera Pose Estimation
+3. Camera Pose Estimation
 
 Camera poses are estimated using Structure-from-Motion (SfM) techniques to determine the spatial relationships between frames.
 
-# 4. Gaussian Splatting Training
+4. Gaussian Splatting Training
 
 The extracted frames and camera parameters are used to train a 3D Gaussian Splatting model, which represents the scene as a collection of anisotropic Gaussian primitives.
 
-# 5. Rendering
+5. Rendering
 
 The trained model is used to render novel viewpoints of the reconstructed subject in real time.
 
